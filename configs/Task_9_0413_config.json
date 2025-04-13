@@ -1,0 +1,19 @@
+{
+    "task_id": 9,
+    "data_dir": "./data/cifar-10-batches-py",
+    "logpath": "./results/",
+    "batch_size": 128,
+    "in_channel": 3072,
+    "hiddenlayer_1": 128,
+    "hiddenlayer_2": 128,
+    "num_classes": 10,
+    "total_epochs": 100,
+    "epochs_decay": 50,
+    "decay": 0.5,
+    "weight_decay": 0.01,
+    "learning_rate": 0.01,
+    "seed": 926,
+    "date": "0413",
+    "plot": true,
+    "activation": "relu"
+}
